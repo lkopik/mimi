@@ -6,4 +6,3 @@ sudo mv im.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable mi
 sudo systemctl enable im
-reboot
