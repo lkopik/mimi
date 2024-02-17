@@ -1,9 +1,0 @@
-[Unit]
-Description=mi
-
-[Service]
-Type=oneshot
-ExecStart=/bin/bash -c "sleep 20 && cd /home/kvant/miner/miner && ./Start-IronFish.sh"
-
-[Install]
-WantedBy=multi-user.target
