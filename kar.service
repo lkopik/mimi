@@ -3,7 +3,7 @@ Description=mi
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c "sleep 20 && cd /etc/systemd/system && ./Start-Karlsen.sh"
+ExecStart=/bin/bash -c "sleep 20 && cd /etc/systemd/mimi && ./Start-Karlsen.sh"
 
 [Install]
 WantedBy=multi-user.target
