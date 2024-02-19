@@ -3,7 +3,7 @@ Description=mi
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c "sleep 20 && cd /etc/systemd/system && ./Start-PYRIN.sh"
+ExecStart=/bin/bash -c "sleep 20 && cd /etc/systemd/mimi && ./Start-PYRIN.sh"
 
 [Install]
 WantedBy=multi-user.target
